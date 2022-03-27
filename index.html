@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!--Le titre du jeu-->
+    <div class="header"> 
+      <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg">
+    </div>
+    <!--Deux petites étoiles -->
+    <div class="title-row">
+      <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+      <p class="instructions-title">instructions-title</p>
+      <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+    </div>
+    <!--Expliquer le jeu à quiconque souhaite y jouer-->
+    <table class="instructions-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-number">2</td>
+        <td class="instructions-number">3</td>
+        <td class="instructions-number">4</td>
+      </tr>
+      <tr>
+        <td class="instructions-text">Le ChoreBot se cache derrière l'une de ces portes</td>
+        <td class="instructions-text">Votre mission est d'ouvrir toutes les portes sans vous heurter au ChoreBot.</td>
+        <td class="instructions-text">Si vous parvenez à éviter le ChoreBot jusqu'à ce que vous ouvriez la toute dernière porte, vous gagnez!</td>
+        <td class="instructions-text">Voyez si vous pouvez marquer une séquence de victoires!</td>
+      </tr>
+    </table>
+    <!--3 Portes-->
+    <div class="door-row">
+      <img id='door1' class ="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg"> 
+
+       <img id='door2' class ="door-frame"  src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
+
+        <img id='door3' class ="door-frame"  src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
+
+  </div>
+  <!--bouton qui répondra à l'état du jeu-->
+  <div id='start' class="start-row">
+    Good luck!
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
